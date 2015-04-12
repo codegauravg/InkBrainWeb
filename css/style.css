@@ -1,5 +1,6 @@
 .carousel {
     height: 300px;
+    margin-top: auto;
     margin-bottom: 50px;
 }
 .carousel-caption {
