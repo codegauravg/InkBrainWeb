@@ -11,6 +11,7 @@
  <!-- css stylesheets -->
  <link href="/css/bootstrap.min.css" rel="stylesheet">
  <link href="/css/style.css" rel="stylesheet">
+<link href="/css/blog.css" rel="stylesheet">
  <!-- progress bar -->
  <link href="//inkbrain.in/node_modules/progressbar.js/dist/progressbar.js">
 </head>
@@ -115,45 +116,122 @@
 
     <!-- column 1 (sidebar) -->
   <div class="col-sm-3 sidebar-offcanvas" id="sidebar">
+
+      <!-- Subscribe to my feed widget -->
+    <div class="well text-center">
+        <p class="lead">
+            Don't want to miss updates? Please click the below button!
+        </p>
+        <button class="btn btn-primary btn-lg">Subscribe to my feed</button>
+    </div>
+
+    <!-- Other widgets -->
       <div class="list-group" role="navigation">
       <a href="#" class="list-group-item">Atom Vs. Brackets</a>
       <a href="#" class="list-group-item">Why Ubuntu</a>
       <a href="#" class="list-group-item">Arduino Vs. Rasberry Pi</a>
       </div>
 
-    <!-- box 1 -->
+      <!--Panel About Latest Posts-->
     <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">Register Yourself with InkBrain</h3>
-      </div>
-      <div class="panel-body">
-        <form role="form">
-          <div class="form-group">
-            <label for="emailField">Email address</label>
-            <input type="email" class="form-control" id="emailField" placeholder="Enter email">
-          </div>
-          <div class="form-group">
-            <label for="selectField">Rate Your Development Skills</label>
-            <select class="form-control" id="selectField">
-              <option>Rookie</option>
-              <option>Learner</option>
-              <option>Professional</option>
-              <option>Expert</option>
-              <option>Veteran</option>
-            </select>
-          </div>
-          <div class="progress progress-striped active">
-            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:30%">
-              <span class="sr-only">20% Complete</span></div>
-          </div>
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
-      </div>
+    <div class="panel-heading">
+        <h4>Latest Posts</h4>
     </div>
+    <ul class="list-group">
+        <li class="list-group-item"><a href="singlepost.html">1. Aries Sun Sign March 21 - April 19</a></li>
+        <li class="list-group-item"><a href="singlepost.html">2. Taurus Sun Sign April 20 - May 20</a></li>
+        <li class="list-group-item"><a href="singlepost.html">3. Gemini Sun Sign May 21 - June 21</a></li>
+        <li class="list-group-item"><a href="singlepost.html">4. Cancer Sun Sign June 22 - July 22</a></li>
+        <li class="list-group-item"><a href="singlepost.html">5. Leo Sun Sign July 23 - August 22 </a></li>
+    </ul>
+    </div>
+    <div class="panel panel-default">
+    <div class="panel-heading">
+        <h4>Recent Comments</h4>
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item"><a href="#">I don't believe in astrology but still your writing style is really great! - <em>john</em></a></li>
+        <li class="list-group-item"><a href="#">Wow.. what you said is really true! I'm an aries though - <em>Anto</em></a></li>
+        <li class="list-group-item"><a href="#">Does capricorn and aries is compatibile? - <em>Sarah</em></a></li>
+        <li class="list-group-item"><a href="#">I'm a cancer woman been in love with Leo. Will this work? - <em>Mary</em></a></li>
+    </ul>
+    </div>
+    <div class="panel panel-default">
+    <div class="panel-heading">
+        <h4>Tags</h4>
+    </div>
+    <div class="panel-body">
+        <ul class="list-inline">
+            <li><a href="#">Aries</a></li>
+            <li><a href="#">Fire</a></li>
+            <li><a href="#">Mars</a></li>
+            <li><a href="#">Taurus</a></li>
+            <li><a href="#">Earth</a></li>
+            <li><a href="#">Moon</a></li>
+            <li><a href="#">Gemini</a></li>
+            <li><a href="#">Air</a></li>
+            <li><a href="#">Mercury</a></li>
+            <li><a href="#">Cancer</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="container">
+    <h1>Contact Me</h1>
+
+    <div class="well">
+        <p class="lead">
+            Do you have any question? Please use the below contact form and send a message. I'll reply you as quick as possible.
+        </p>
+    </div>
+
+    <!-- contact form -->
+    <div class="contact-form">
+    <form class="form-horizontal col-md-8" role="form">
+
+        <div class="form-group">
+            <label for="name" class="col-md-2">Name</label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" id="name" placeholder="Name">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="email" class="col-md-2">Email</label>
+            <div class="col-md-10">
+                <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="subject" class="col-md-2">Subject</label>
+            <div class="col-md-10">
+                <input type="subject" class="form-control" id="subject" placeholder="Subject">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="message" class="col-md-2">Message</label>
+            <div class="col-md-10">
+                <textarea class="form-control" id="message" placeholder="Message"></textarea>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-lg btn-primary">Submit your message!</button>
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+
+
+
+</div>
 
 
     <!--Main Articles-->
-    <span class="glyphicon glyphicon-folder-open"></span>
+
     <div class="col-md-9">
     <h2>Latest Posts</h2>
     <article>
@@ -180,7 +258,63 @@
         </a>
     </p>
      <hr>
-</article>
+    </article>
+
+    <!--Comment Box-->
+    <div class="well">
+     <h4>Leave a comment</h4>
+     <form role="form" class="clearfix">
+
+        <div class="col-md-6 form-group">
+            <label class="sr-only" for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Name">
+        </div>
+
+        <div class="col-md-6 form-group">
+            <label class="sr-only" for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Email">
+        </div>
+
+        <div class="col-md-12 form-group">
+            <label class="sr-only" for="email">Comment</label>
+            <textarea class="form-control" id="comment" placeholder="Comment"></textarea>
+        </div>
+
+        <div class="col-md-12 form-group text-right">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <ul id="comments" class="comments">
+    <li class="comment">
+        <div class="clearfix">
+            <h4 class="pull-left">John</h4>
+            <p class="pull-right">9:41 PM on August 24, 2013</p>
+        </div>
+        <p>
+            <em>I don't believe in astrology but still your writing style is really great!</em>
+        </p>
+    </li>
+
+    <li class="comment clearfix">
+        <div class="clearfix">
+            <h4 class="pull-left">John</h4>
+            <p class="pull-right">9:41 PM on August 24, 2013</p>
+        </div>
+        <p>
+            <em>I don't believe in astrology but still your writing style is really great!</em>
+        </p>
+    </li>
+</ul>
+    </form>
+</div>
+        <!-- pager -->
+            <ul class="pager">
+                <li class="previous">
+                    <a href="/index.html">← Older</a>
+                </li>
+                <li class="next">
+                    <a href="#">Newer →</a>
+                </li>
+            </ul>
     </div>
 </div>
 </div>
