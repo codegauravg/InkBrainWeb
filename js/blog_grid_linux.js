@@ -1,6 +1,6 @@
 $(document).ready(function() {
 $('#pinBoot').pinterest_grid({
-no_columns: 3,
+no_columns: 2,
 padding_x: 10,
 padding_y: 10,
 margin_bottom: 50,
@@ -37,7 +37,7 @@ http://www.jqueryscript.net/layout/Simple-jQuery-Plugin-To-Create-Pinterest-Styl
         defaults = {
             padding_x: 10,
             padding_y: 10,
-            no_columns: 3,
+            no_columns: 2,
             margin_bottom: 50,
             single_column_breakpoint: 700
         },
