@@ -6,12 +6,14 @@
  <meta name="Development Website- Inkbrain.in" content="Responsive Development on current Technologies">
  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
  <meta name="viewport" content="width=device-width, initial-scale=1.0, initial-maximum=1.0, user-scalable=yes">
- <title>$echo"InkBrain"- Code to Live | Blog</title>
+ <title>$echo"InkBrain"- Code to Live|HOME</title>
 
  <!-- css stylesheets -->
  <link href="//inkbrain.in/css/bootstrap.min.css" rel="stylesheet">
  <link href="//inkbrain.in/css/style.css" rel="stylesheet">
-<link href="//inkbrain.in/css/blog_grid.css" rel="stylesheet">
+<link href="//inkbrain.in/css/blog.css" rel="stylesheet">
+ <!-- progress bar -->
+ <link href="//inkbrain.in/node_modules/progressbar.js/dist/progressbar.js">
 </head>
 
 <body>
@@ -35,7 +37,6 @@
         <li><a href="//inkbrain.in/webpages/fixnavbar/source_code.html">Source Code</a></li>
         <li><a href="//inkbrain.in/webpages/fixnavbar/linux_support.html">Ubuntu/Debian Support</a></li>
         <li><a href="//inkbrain.in/webpages/fixnavbar/cheatsheets.html">Cheatsheets</a></li>
-        <li class="active"><a href="//inkbrain.in/webpages/altpage/followblog.html">Blog</a></li>
         <li><form class="navbar-form navbar-right" role="search">
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search">
@@ -85,16 +86,16 @@
   <div class="collapse navbar-collapse" id="b-menu-2">
     <ul class="nav navbar-nav">
       <li class="active"><a><span class="glyphicon glyphicon-home"></span> Home</a></li>
-      <li><a href="//inkbrain.in/webpages/secondnavbar/help.html"><span class="glyphicon glyphicon-question-sign"></span> Help</a></li>
-      <li><a href="//inkbrain.in/webpages/secondnavbar/about.html"><span class="glyphicon glyphicon-exclamation-sign"></span> About</a></li>
+      <li><a href="webpages/secondnavbar/help.html"><span class="glyphicon glyphicon-question-sign"></span> Help</a></li>
+      <li><a href="webpages/secondnavbar/about.html"><span class="glyphicon glyphicon-exclamation-sign"></span> About</a></li>
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-list"></span> Other <b class="caret"></b></a>
         <ul class="dropdown-menu">
-          <li><a href="//inkbrain.in/webpages/secondnavbar/dropdown/responsive_layout.html">Responsive Layout Design</a></li>
-          <li><a href="//inkbrain.in/webpages/secondnavbar/dropdown/forum.html">Recent Ideas</a></li>
+          <li><a href="webpages/secondnavbar/dropdown/responsive_layout.html">Responsive Layout Design</a></li>
+          <li><a href="webpages/secondnavbar/dropdown/recents.html">Recent Ideas</a></li>
           <li class="divider"></li>
-          <li><a href="//inkbrain.in/webpages/secondnavbar/dropdown/api_addthis.html">AddThis | Social API</a></li>
-          <li><a href="//inkbrain.in/webpages/secondnavbar/dropdown/api_revolvermaps.html">Revolver Maps | Location API</a></li>
+          <li><a href="webpages/secondnavbar/dropdown/api_addthis.html">AddThis | Social API</a></li>
+          <li><a href="webpages/secondnavbar/dropdown/api_revolvermaps.html">Revolver Maps | Location API</a></li>
           <li class="divider"></li>
           <li><a href="https://github.com/codegauravg/Inkbrain-Website/blob/master/LICENSE">Licensed under MIT &copy;InkBrain 2014-2015</a></li>
         </ul>
@@ -109,31 +110,42 @@
 
  <!--BLOG BODY PAGE CONTENT -->
 
+<div id="body">
+ <!-- Site Main content -->
+<div class="container">
+<div class="row">
 
-     <!--Main Articles-->
-    <div class="container">
-      <div class="row">
-    <h2>#Eureka_InkBrain</h2>
-        <section id="pinBoot"><!-- Article Section Starts here -->
+    <!-- column 1 (sidebar) -->
+  <div class="col-sm-3 sidebar-offcanvas" id="sidebar">
 
-          <article class="white-panel"><img src="http://i.imgur.com/sDLIAZD.png" alt=""><!-- article layout -->
-            <h4><a href="#">Title 1</a></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </article>
+      <!-- Subscribe to my feed widget -->
+    <div class="well text-center">
+        <p class="lead">
+            Don't want to miss updates? Please click the below button!
+        </p>
+        <button class="btn btn-primary btn-lg">Subscribe to my feed</button>
+    </div>
 
-          <article class="white-panel"> <img src="http://i.imgur.com/8lhFhc1.gif" alt="">
-            <h4><a href="#">Title 2</a></h4>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </article>
+    <!-- Other widgets -->
+      <div class="list-group" role="navigation">
+      <a href="#" class="list-group-item">Atom Vs. Brackets</a>
+      <a href="#" class="list-group-item">Why Ubuntu</a>
+      <a href="#" class="list-group-item">Arduino Vs. Rasberry Pi</a>
+      </div>
 
-<<<<<<< HEAD:webpages/altpage/blogpage.html
-          <article class="white-panel"> <img src="http://i.imgur.com/xOIMvAe.jpg" alt="">
-            <h4><a href="#">Title 3</a></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          </article>
-=======
+      <!--Panel About Latest Posts-->
+    <div class="panel panel-default">
+    <div class="panel-heading">
+        <h4>Latest Posts</h4>
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item"><a href="singlepost.html">1. Aries Sun Sign March 21 - April 19</a></li>
+        <li class="list-group-item"><a href="singlepost.html">2. Taurus Sun Sign April 20 - May 20</a></li>
+        <li class="list-group-item"><a href="singlepost.html">3. Gemini Sun Sign May 21 - June 21</a></li>
+        <li class="list-group-item"><a href="singlepost.html">4. Cancer Sun Sign June 22 - July 22</a></li>
+        <li class="list-group-item"><a href="singlepost.html">5. Leo Sun Sign July 23 - August 22 </a></li>
+    </ul>
+    </div>
     <div class="panel panel-default">
     <div class="panel-heading">
         <h4>Recent Comments</h4>
@@ -165,49 +177,96 @@
     </div>
     </div>
 </div>
->>>>>>> origin/master:webpages/altpage/followblog.html
 
 
-          <article class="white-panel"> <img src="http://i.imgur.com/3gXW3L3.jpg" alt="">
-            <h4><a href="#">Title 4</a></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </article>
+    <!--Main Articles-->
 
-          <article class="white-panel"> <img src="http://i.imgur.com/o2RVMqm.jpg" alt="">
-            <h4><a href="#">Title 5</a></h4>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </article>
+    <div class="col-md-9">
+    <h2>Latest Posts</h2>
+    <article>
+    <h2><a href="singlepost.html">Aries Sun Sign March 21 - April 19</a></h2>
+     <div class="row">
+        <div class="group1 col-sm-6 col-md-6">
+            <span class="glyphicon glyphicon-folder-open"></span>  <a href="#">Signs</a>
+                     <span class="glyphicon glyphicon-bookmark"></span> <a href="#"> Aries</a>,
+                <a href="#">Fire</a>, <a href="#">Mars</a>
+        </div>
+        <div class="group2 col-sm-6 col-md-6">
+                <span class="glyphicon glyphicon-pencil"></span> <a href="singlepost.html#comments">20 Comments</a>
+                  <span class="glyphicon glyphicon-time"></span> August 24, 2013 9:00 PM
+        </div>
+    </div>
+     <hr>
+     <img src="http://placehold.it/900x300" class="img-responsive">
+     <br />
+     <p class="lead">Aries is the first sign of the zodiac, and that's pretty much how those born under this sign see themselves: first. Aries are the leaders of the pack, first in line to get things going. Whether or not everything gets done is another question altogether, for an Aries prefers to initiate rather than to complete. Do you have a project needing a kick-start? Call an Aries, by all means. The leadership displayed by Aries is most impressive, so don't be surprised if they can rally the troops against seemingly insurmountable odds.</p>
+     <p>The symbol of Aries is the Ram, and that's both good and bad news. Impulsive Aries might be tempted to ram their ideas down everyone's throats without even bothering to ask if they want to know. It's these times when you may wish Aries' symbol were a more subdued creature, more lamb than ram perhaps. You're not likely to convince the Ram to soften up; these folks are blunt and to the point. Along with those qualities comes the sheer force of the Aries nature, a force that can actually accomplish a great deal. Much of Aries' drive to compete and to win comes from its Cardinal Quality. Cardinal Signs love to get things going, and Aries exemplifies this even better than Cancer, Libra or Capricorn.</p>
+     <p class="text-right">
+        <a href="singlepost.html" class="text-right">
+            continue reading...
+        </a>
+    </p>
+     <hr>
+    </article>
 
-          <article class="white-panel"> <img src="http://i.imgur.com/kFFpuKA.jpg" alt="">
-            <h4><a href="#">Title 6</a></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          </article>
+    <!--Comment Box-->
+    <div class="well">
+     <h4>Leave a comment</h4>
+     <form role="form" class="clearfix">
 
+        <div class="col-md-6 form-group">
+            <label class="sr-only" for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Name">
+        </div>
 
+        <div class="col-md-6 form-group">
+            <label class="sr-only" for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Email">
+        </div>
 
-          <article class="white-panel"><img src="http://i.imgur.com/E9RmLPA.jpg" alt="">
-            <h4><a href="#">Title 7</a></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </article>
+        <div class="col-md-12 form-group">
+            <label class="sr-only" for="email">Comment</label>
+            <textarea class="form-control" id="comment" placeholder="Comment"></textarea>
+        </div>
 
-          <article class="white-panel"> <img src="http://i.imgur.com/8lhFhc1.gif" alt="">
-            <h4><a href="#">Title 8</a></h4>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </article>
+        <div class="col-md-12 form-group text-right">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <ul id="comments" class="comments">
+    <li class="comment">
+        <div class="clearfix">
+            <h4 class="pull-left">John</h4>
+            <p class="pull-right">9:41 PM on August 24, 2013</p>
+        </div>
+        <p>
+            <em>I don't believe in astrology but still your writing style is really great!</em>
+        </p>
+    </li>
 
-        </section><!-- Article Section Ends -->
-
-      </div>
-
-
-    </div><!-- Post Container ends here -->
-
-
-
-
+    <li class="comment clearfix">
+        <div class="clearfix">
+            <h4 class="pull-left">John</h4>
+            <p class="pull-right">9:41 PM on August 24, 2013</p>
+        </div>
+        <p>
+            <em>I don't believe in astrology but still your writing style is really great!</em>
+        </p>
+    </li>
+</ul>
+    </form>
+</div>
+        <!-- pager -->
+            <ul class="pager">
+                <li class="previous">
+                    <a href="/index.html">← Older</a>
+                </li>
+                <li class="next">
+                    <a href="#">Newer →</a>
+                </li>
+            </ul>
+    </div>
+</div>
+</div>
 
 <footer>
  <!-- license plot. -->
@@ -217,9 +276,8 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Lets code till the <b> SUNSHINE </b> comes.!
       </p>
 
-
-      <p class="navbar-text navbar-right">Development &amp; Maintained  on: <b> &copy; <a href="http://getbootstrap.com">Bootstrap</a> &copy; <a href="https://www.twitter.com">Twitter</a> API</b><br>
-         by: <a href="https://github.com/codegauravg"> codegauravg</a> &amp; <a href="https://github.com/anuragkumarak95">anuragkumarak95</a></p>
+      <p class="navbar-text navbar-right">Developed on: <b><a href="http://getbootstrap.com"> &copy; Twitter &copy; Bootstrap API</a></b><br>
+        Developed by: <a href="https://github.com/codegauravg"> codegauravg</a> &amp; <a href="https://github.com/anuragkumarak95">anuragkumarak95</a></p>
   </nav>
 
     <!-- Google Adsense Code -->
@@ -235,9 +293,7 @@
 
 </footer>
 <!-- add javascripts -->
-<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
  <script src="//inkbrain.in/js/jQuery-2.0.3.min.js"></script>
  <script src="//inkbrain.in/js/bootstrap.min.js"></script>
- <script src="//inkbrain.in/js/blog_grid.js"></script>
 </body>
 </html>
