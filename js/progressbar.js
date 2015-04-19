@@ -40,8 +40,17 @@
     };
 
     // PROGRESSBAR DATA-API
-    // ====================
+    // ==================== for mobile versions 
+    $(document).on('click', '[data-toggle="progressbar"]', function (e) {
+        var $this = $(this);
+        var $target = $($this.data('target'));
+        var value = $this.data('value');
 
+        e.preventDefault();
+
+        $target.progressbar(value);
+    });
+//for desk versions
     $(document).on('mouseover', '[data-toggle="progressbar"]', function (e) {
         var $this = $(this);
         var $target = $($this.data('target'));
