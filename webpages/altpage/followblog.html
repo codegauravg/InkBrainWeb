@@ -12,8 +12,7 @@
  <link href="//inkbrain.in/css/bootstrap.min.css" rel="stylesheet">
  <link href="//inkbrain.in/css/style.css" rel="stylesheet">
 <link href="//inkbrain.in/css/blog.css" rel="stylesheet">
- <!-- progress bar -->
- <link href="//inkbrain.in/node_modules/progressbar.js/dist/progressbar.js">
+<link href="//inkbrain.in/css/search.css" rel="stylesheet">
 </head>
 
 <body>
@@ -34,16 +33,18 @@
     </div>
     <div class="collapse navbar-collapse" id="b-menu-1">
       <ul class="nav navbar-nav navbar-right">
+        <li> <a><form action="" class="search-form">
+      <div class="form-group has-feedback">
+      <label for="search" class="sr-only">Search</label>
+      <input type="text" class="form-control" name="search" id="search" placeholder="search">
+        <span class="glyphicon glyphicon-search form-control-feedback"></span>
+    </div>
+  </form></a>
         <li><a href="//inkbrain.in/webpages/fixnavbar/source_code.html">Source Code</a></li>
         <li><a href="//inkbrain.in/webpages/fixnavbar/linux_support.html">Ubuntu/Debian Support</a></li>
         <li><a href="//inkbrain.in/webpages/fixnavbar/cheatsheets.html">Cheatsheets</a></li>
         <li class="active"><a href="//inkbrain.in/webpages/altpage/followblog.html">Blog</a></li>
-        <li><form class="navbar-form navbar-right" role="search">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
-              </div>
-              <button type="submit" class="btn btn-default">Submit</button>
-            </form>
+        
         </li>
     </ul>
     </div> <!-- /.nav-collapse -->
