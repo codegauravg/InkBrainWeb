@@ -21,7 +21,7 @@ below is the stylesheet for back to top button.
 */
 #toTop{
 	position: fixed;
-	bottom: 10px;
+	bottom: 60px;
 	right: 10px;
 	cursor: pointer;
 	display: none;
