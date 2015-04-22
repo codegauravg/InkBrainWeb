@@ -23,6 +23,7 @@ below is the stylesheet for back to top button.
 	position: fixed;
 	bottom: 60px;
 	right: 10px;
+    opacity: 0.85;
 	cursor: pointer;
 	display: none;
 }
