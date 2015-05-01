@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+    <url><loc>http://www.inkbrain.in/</loc></url>
+    <url><loc>http://www.inkbrain.in/fixnavbar/cheatsheets.html</loc></url>
+    <url><loc>http://www.inkbrain.in/fixnavbar/linux_support.html</loc></url>
+    <url><loc>http://www.inkbrain.in/secondnavbar/about.html</loc></url>
+    <url><loc>http://www.inkbrain.in/secondnavbar/help.html</loc></url>
+    <url><loc>http://www.inkbrain.in/secondnavbar/dropdown/api_addthis.html</loc></url>
+    <url><loc>http://www.inkbrain.in/secondnavbar/dropdown/api_revolvermaps.html</loc></url>
+    <url><loc>http://www.inkbrain.in/secondnavbar/dropdown/forum.html</loc></url>
+    <url><loc>http://www.inkbrain.in/secondnavbar/dropdown/reponsive_layout.html</loc></url>
+    <url><loc>http://www.inkbrain.in/altpage/blogpage.html</loc></url>
+    <url><loc>http://www.inkbrain.in/altpage/codeguide.html</loc></url>
+    <url><loc>http://www.inkbrain.in/altpage/followblog.html</loc></url>
+
+</urlset>
