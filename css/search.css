@@ -1,3 +1,8 @@
+.search-form
+{
+padding-top: 10px;
+}
+
 .search-form .form-group {
   float: right !important;
   transition: all 0.35s, border-radius 0s;
@@ -31,7 +36,7 @@
 }
 .search-form .form-group:hover,
 .search-form .form-group.hover {
-  width: 100%;
+  width: 150%;
   border-radius: 25px 25px 25px 25px;
 }
 .search-form .form-group span.form-control-feedback {
