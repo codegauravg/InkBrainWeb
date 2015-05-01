@@ -4,16 +4,16 @@
   xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
     <url><loc>http://www.inkbrain.in/</loc></url>
-    <url><loc>http://www.inkbrain.in/fixnavbar/cheatsheets.html</loc></url>
-    <url><loc>http://www.inkbrain.in/fixnavbar/linux_support.html</loc></url>
-    <url><loc>http://www.inkbrain.in/secondnavbar/about.html</loc></url>
-    <url><loc>http://www.inkbrain.in/secondnavbar/help.html</loc></url>
-    <url><loc>http://www.inkbrain.in/secondnavbar/dropdown/api_addthis.html</loc></url>
-    <url><loc>http://www.inkbrain.in/secondnavbar/dropdown/api_revolvermaps.html</loc></url>
-    <url><loc>http://www.inkbrain.in/secondnavbar/dropdown/forum.html</loc></url>
-    <url><loc>http://www.inkbrain.in/secondnavbar/dropdown/reponsive_layout.html</loc></url>
-    <url><loc>http://www.inkbrain.in/altpage/blogpage.html</loc></url>
-    <url><loc>http://www.inkbrain.in/altpage/codeguide.html</loc></url>
-    <url><loc>http://www.inkbrain.in/altpage/followblog.html</loc></url>
+    <url><loc>http://www.inkbrain.in/webpages/fixnavbar/cheatsheets.html</loc></url>
+    <url><loc>http://www.inkbrain.in/webpages/fixnavbar/linux_support.html</loc></url>
+    <url><loc>http://www.inkbrain.in/webpages/secondnavbar/about.html</loc></url>
+    <url><loc>http://www.inkbrain.in/webpages/secondnavbar/help.html</loc></url>
+    <url><loc>http://www.inkbrain.in/webpages/secondnavbar/dropdown/api_addthis.html</loc></url>
+    <url><loc>http://www.inkbrain.in/webpages/secondnavbar/dropdown/api_revolvermaps.html</loc></url>
+    <url><loc>http://www.inkbrain.in/webpages/secondnavbar/dropdown/forum.html</loc></url>
+    <url><loc>http://www.inkbrain.in/webpages/secondnavbar/dropdown/reponsive_layout.html</loc></url>
+    <url><loc>http://www.inkbrain.in/webpages/altpage/blogpage.html</loc></url>
+    <url><loc>http://www.inkbrain.in/webpages/altpage/codeguide.html</loc></url>
+    <url><loc>http://www.inkbrain.in/webpages/altpage/followblog.html</loc></url>
 
 </urlset>
