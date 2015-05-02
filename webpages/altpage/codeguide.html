@@ -28,8 +28,9 @@
  <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-552a940d0bc7aff4" async="async"></script>
 
- <!-- fixed navigation bar -->
+<!-- fixed navigation bar -->
 <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+<<<<<<< HEAD
   <div class="container">
  <div class="navbar-header">
    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#b-menu-1">
@@ -52,6 +53,35 @@
    </ul>
  </div> <!-- /.nav-collapse -->
   </div> <!-- /.container -->
+=======
+<div class="container">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#b-menu-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="http://www.inkbrain.in">InkBrain</a>
+    </div>
+<div class="collapse navbar-collapse" id="b-menu-1">
+  <ul class="nav navbar-nav navbar-right">
+    <!--<li><a> <form action="" class="search-form">
+    <div class="form-group has-feedback">
+    <label for="search" class="sr-only">Search</label>
+    <input type="text" class="form-control" name="search" id="search" placeholder="search">
+    <span class="glyphicon glyphicon-search form-control-feedback"></span>
+    </div>
+    </form></a>-->
+    <li><a href="//inkbrain.in/webpages/altpage/codeguide.html">Code Guide</a></li>
+    <li><a href="//inkbrain.in/webpages/fixnavbar/linux_support.html">Ubuntu/Debian Support</a></li>
+    <li><a href="//inkbrain.in/webpages/fixnavbar/cheatsheets.html">Cheatsheets</a></li>
+    <li><a href="//inkbrain.in/webpages/altpage/followblog.html">Issues Blog</a></li>
+    <li><a href="//inkbrain.in/webpages/altpage/blogpage.html">Blog by Author</a></li>
+  </ul>
+</div> <!-- /.nav-collapse -->
+</div> <!-- /.container -->
+>>>>>>> InkBrainWeb/master
 </div> <!-- /.navbar --><!-- slider -->
 
 <br><br><br>
@@ -84,7 +114,7 @@
  <span class="icon-bar"></span>
  <span class="icon-bar"></span>
    </button>
-   <a class="navbar-brand" a href="https://github.com/codegauravg/InkBrainWeb" target="_blank">Git Fork Inkbrain</a>
+   <a class="navbar-brand" a href="https://github.com/codegauravg/InkBrainWeb" target="_blank"><i class="fa fa-github"></i>Fork Inkbrain</a>
   </div>
 
   <!-- submenu elements for #b-menu-2 -->
@@ -117,10 +147,161 @@
 <!-- column double timeline sample -->
 <div class="container">
     <div class="page-header text-center">
-        <h1 id="timeline">Bootstrap Layout Snippets</h1>
+        <h1 id="timeline"><i class="fa fa-5x fa-file-code-o"></i><br>Bootstrap Layout Snippets</h1>
     </div>
     <ul class="timeline">
-        <li>
+      <!-- 1st post -->
+      <li class="timeline-inverted"> <link rel="stylesheet" href="//inkbrain.in/css/search.css">
+  <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record inverted" rel="tooltip" title="posted on: 2 April 2015" id=""></i></a></div>
+  <div class="timeline-panel">
+    <div class="timeline-heading">
+      <h2>&emsp;&emsp;Search Bar</h2>
+
+    </div>
+    <div class="timeline-body">
+<div class="panel panel-default">
+      <div class="panel-heading">
+       <h3 class="panel-title"><br><br></h3>
+       <span class="pull-top">
+        <!-- Tabs -->
+        <ul class="nav panel-tabs">
+         <li class="active"><a href="#tab4" data-toggle="tab">Preview</a></li>
+         <li><a href="#tab5" data-toggle="tab">HTML</a></li>
+
+         <li><a href="#tab6" data-toggle="tab">CSS</a></li>
+         <!-- no to be issued still
+         <li><a href="#tab4" data-toggle="tab">Blog Page</a></li>
+         -->
+       </ul>
+       </span>
+      </div>
+      <div class="panel-body">
+       <div class="tab-content">
+        <div class="tab-pane active" id="tab4"><!-- Preview section -->
+
+          <div class="container col-md-12 col-xs-12">
+              <div class="row">
+                  <div class="col-md-6 col-md-offset-3">
+                      <h1>Expandable Search Form</h1>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-4 col-md-offset-3">
+                      <form action="" class="search-form">
+                          <div class="form-group has-feedback">
+                          <label for="search" class="sr-only">Search</label>
+                          <input type="text" class="form-control" name="search" id="search" placeholder="search">
+                            <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                        </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+
+        </div>
+
+
+<div class="tab-pane" id="tab5"><!-- Html section -->
+<pre class="col-md-12 col-sm-12"><code>
+&#60;div class="container" &gt;
+&#60;div class="row" &gt;
+&#60;div class="col-md-6 col-md-offset-3" &gt;
+&#60;h1 &gt;Expandable Search Form &#60;/h1 &gt;
+&#60;/div &gt;
+&#60;/div &gt;
+&#60;div class="row" &gt;
+&#60;div class="col-md-4 col-md-offset-3" &gt;
+&#60;form action="" class="search-form" &gt;
+&#60;div class="form-group has-feedback" &gt;
+&#60;label for="search" class="sr-only" &gt;Search &#60;/label &gt;
+&#60;input type="text" class="form-control" name="search" id="search" placeholder="search" &gt;
+&#60;span class="glyphicon glyphicon-search form-control-feedback" &gt; &#60;/span &gt;
+&#60;/div &gt;
+&#60;/form &gt;
+&#60;/div &gt;
+&#60;/div &gt;
+&#60;/div &gt;
+</code>
+</pre>
+</div>
+
+<div class="tab-pane" id="tab6"><!-- Css section -->
+<pre class="col-md-12 col-sm-12"><code>
+.search-form .form-group {
+float: right !important;
+transition: all 0.35s, border-radius 0s;
+width: 32px;
+height: 32px;
+background-color: #fff;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+border-radius: 25px;
+border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+padding-right: 20px;
+border: 0 none;
+background: transparent;
+box-shadow: none;
+display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+/* Firefox 18- */
+display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+/* Firefox 19+ */
+display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+width: 100%;
+border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+position: absolute;
+top: -1px;
+right: -2px;
+z-index: 2;
+display: block;
+width: 34px;
+height: 34px;
+line-height: 34px;
+text-align: center;
+color: #3596e0;
+left: initial;
+font-size: 14px;
+}
+
+</code></pre>
+
+        </div>
+
+        <!-- not to be issued still
+        <div class="tab-pane" id="tab4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+         Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,</div>
+       -->
+
+     </div>
+     </div>
+   </div>
+    </div>
+
+    <div class="timeline-footer">
+        <i class="glyphicon glyphicon-thumbs-up"></i>&emsp;&emsp;&emsp;Snippet Referred through :
+        <!-- to be used later- <a><i class="glyphicon glyphicon-share"></i></a> -to be used later-->
+        <a class="pull-right" href="http://bootsnipp.com/snippets/featured/box-material-design">&#60; BootSnipp &gt;</a>
+    </div>
+  </div>
+</li><!-- /1st post -->
+
+        <li><!-- 2nd post -->
           <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" title="posted on: 2 April 2015" id=""></i></a></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -261,7 +442,7 @@
                 <a class="pull-right" href="http://bootsnipp.com/snippets/featured/box-material-design">&#60; BootSnipp &gt;</a>
             </div>
           </div>
-        </li>
+        </li><!-- /2nd post -->
 
         <!--<li  class="timeline-inverted">
           <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
