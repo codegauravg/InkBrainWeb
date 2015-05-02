@@ -67,3 +67,27 @@ these are the style sheet for material panels.
     color: #fff;
     transition: all 0.5s ease 0s;
 }
+
+<!--Code box attributes with an image at top left-->
+pre {
+    overflow: auto;
+    background: url("img/code.png") no-repeat scroll 10px 2px #F7F7F7;
+    padding: 2em 1em 1em;
+    border: 1px solid #DDD;
+    margin: 15px 10px;
+}
+pre {
+    margin: 5px 0px 20px;
+    line-height: 1.3em;
+    padding: 8px 10px;
+    overflow: auto;
+}
+code {
+    padding: -1px 8px;
+    line-height: 0.5;
+}
+code, pre {
+    font-family: monospace,consolas,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
