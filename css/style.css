@@ -71,7 +71,7 @@ these are the style sheet for material panels.
 <!--Code box attributes with an image at top left-->
 pre {
     overflow: auto;
-    background: url("img/code.png") no-repeat scroll 10px 2px #F7F7F7;
+    background: url("//inkbrain.in/img/code.png") no-repeat scroll 10px 2px #F7F7F7;
     padding: 2em 1em 1em;
     border: 1px solid #DDD;
     margin: 15px 10px;
