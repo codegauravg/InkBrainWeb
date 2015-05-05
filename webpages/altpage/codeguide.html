@@ -1094,6 +1094,167 @@ font-size: 14px;
         </div>
       </li><!-- /4th post -->
 
+      <li class="timeline-inverted"><!-- 5th post -->
+  <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record inverted" rel="tooltip" title="posted on: 5 April 2015" id=""></i></a></div>
+  <div class="timeline-panel">
+    <div class="timeline-heading">
+      <h2>&emsp;&emsp;Progress Bar</h2>
+
+    </div>
+    <div class="timeline-body">
+<div class="panel panel-default">
+      <div class="panel-heading">
+       <h3 class="panel-title"><br><br></h3>
+       <span class="pull-top">
+        <!-- Tabs -->
+        <ul class="nav panel-tabs">
+         <li class="active"><a href="#tab13" data-toggle="tab">Preview</a></li>
+         <li><a href="#tab14" data-toggle="tab">HTML</a></li>
+
+         <li><a href="#tab15" data-toggle="tab">CSS</a></li>
+         <!-- no to be issued still
+         <li><a href="#tab4" data-toggle="tab">Blog Page</a></li>
+         -->
+       </ul>
+       </span>
+      </div>
+      <div class="panel-body">
+       <div class="tab-content">
+        <div class="tab-pane active" id="tab13"><!-- Preview section -->
+<link rel="stylesheet" href="//inkbrain.in/snippetres/css/progressbar_layout.css">
+          <div class="container col-xs-12 col-md-12">
+            <div class="row"><br />
+              <div class="col-md-12">
+                <div class="progress">
+                  <div class="one primary-color"></div><div class="two primary-color"></div><div class="three no-color"></div>
+                  <div class="progress-bar" style="width: 70%;"></div>
+              </div>
+                  <hr />
+              <div class="progress">
+                  <div class="one success-color"></div><div class="two success-color"></div><div class="three success-color"></div>
+                  <div class="progress-bar progress-bar-success" style="width: 100%"></div>
+              </div>
+                  <hr />
+              <div class="progress">
+                  <div class="one danger-color"></div><div class="two no-color"></div><div class="three no-color"></div>
+                  <div class="progress-bar progress-bar-danger" style="width: 30%"></div>
+              </div>
+                  <hr />
+              <div class="progress">
+                  <div class="one warning-color"></div><div class="two warning-color"></div><div class="three no-color"></div>
+                  <div class="progress-bar progress-bar-warning" style="width: 60%"></div>
+              </div>
+                  <hr />
+              <div class="progress">
+                  <div class="one info-color"></div><div class="two no-color"></div><div class="three no-color"></div>
+                  <div class="progress-bar progress-bar-info" style="width: 35%"></div>
+              </div>
+            </div>
+            </div>
+          </div>
+
+        </div>
+
+
+<div class="tab-pane" id="tab14"><!-- Html section -->
+<pre class="col-xs-12 col-md-12 "><code>
+&#60;div class="container"&gt;
+&#60;div class="row"&gt;&#60;br /&gt;
+&#60;div class="col-md-12"&gt;
+&#60;div class="progress"&gt;
+&#60;div class="one primary-color"&gt;&#60;/div&gt;&#60;div class="two primary-color"&gt;&#60;/div&gt;&#60;div class="three no-color"&gt;&#60;/div&gt;
+  &#60;div class="progress-bar" style="width: 70%;"&gt;&#60;/div&gt;
+&#60;/div&gt;
+&#60;hr /&gt;
+&#60;div class="progress"&gt;
+&#60;div class="one success-color"&gt;&#60;/div&gt;&#60;div class="two success-color"&gt;&#60;/div&gt;&#60;div class="three success-color"&gt;&#60;/div&gt;
+  &#60;div class="progress-bar progress-bar-success" style="width: 100%"&gt;&#60;/div&gt;
+&#60;/div&gt;
+&#60;hr /&gt;
+&#60;div class="progress"&gt;
+&#60;div class="one danger-color"&gt;&#60;/div&gt;&#60;div class="two no-color"&gt;&#60;/div&gt;&#60;div class="three no-color"&gt;&#60;/div&gt;
+  &#60;div class="progress-bar progress-bar-danger" style="width: 30%"&gt;&#60;/div&gt;
+&#60;/div&gt;
+&#60;hr /&gt;
+&#60;div class="progress"&gt;
+&#60;div class="one warning-color"&gt;&#60;/div&gt;&#60;div class="two warning-color"&gt;&#60;/div&gt;&#60;div class="three no-color"&gt;&#60;/div&gt;
+  &#60;div class="progress-bar progress-bar-warning" style="width: 60%"&gt;&#60;/div&gt;
+&#60;/div&gt;
+&#60;hr /&gt;
+&#60;div class="progress"&gt;
+&#60;div class="one info-color"&gt;&#60;/div&gt;&#60;div class="two no-color"&gt;&#60;/div&gt;&#60;div class="three no-color"&gt;&#60;/div&gt;
+  &#60;div class="progress-bar progress-bar-info" style="width: 35%"&gt;&#60;/div&gt;
+&#60;/div&gt;
+&#60;/div&gt;
+&#60;/div&gt;
+&#60;/div&gt;
+</code>
+</pre>
+</div>
+
+<div class="tab-pane" id="tab15"><!-- Css section -->
+<pre class="col-md-12 col-sm-12"><code>
+.one, .two, .three{
+position:absolute;
+margin-top:-10px;
+z-index:1;
+height:40px;
+width:40px;
+border-radius:25px;
+
+}
+.one{
+left:25%;
+}
+.two{
+left:50%;
+}
+.three{
+left:75%;
+}
+.primary-color{
+background-color:#4989bd;
+}
+.success-color{
+background-color:#5cb85c;
+}
+.danger-color{
+background-color:#d9534f;
+}
+.warning-color{
+background-color:#f0ad4e;
+}
+.info-color{
+background-color:#5bc0de;
+}
+.no-color{
+background-color:inherit;
+}
+
+</code></pre>
+
+        </div>
+
+        <!-- not to be issued still
+        <div class="tab-pane" id="tab4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+         Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,</div>
+       -->
+
+     </div>
+     </div>
+   </div>
+    </div>
+
+    <div class="timeline-footer">
+        <i class="glyphicon glyphicon-thumbs-up"></i>&emsp;&emsp;&emsp;Snippet Referred through :
+        <!-- to be used later- <a><i class="glyphicon glyphicon-share"></i></a> -to be used later-->
+        <a class="pull-right" href="http://bootsnipp.com/snippets/featured/progress-bars-responsive">&#60; BootSnipp &gt;</a>
+    </div>
+  </div>
+</li><!-- /5th post -->
+
+
         <!--<li  class="timeline-inverted">
           <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
           <div class="timeline-panel">
