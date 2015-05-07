@@ -8,7 +8,7 @@
  <meta name="keywords" content="Ink Brain, inkbrainindia, ink brain, development, open source, bootstrap, discussion, issues" />
  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
  <meta name="viewport" content="width=device-width, initial-scale=1.0, initial-maximum=1.0, user-scalable=yes" />
- <title>$echo InkBrain|Landing Page</title>
+ <title>$echo InkBrain | Landing Page</title>
 
  <!-- css stylesheets -->
  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -48,7 +48,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="http://www.inkbrain.in">InkBrain</a>
+        <!--<a class="navbar-brand" href="">InkBrain</a> -->
+            <a class="navbar-brand" href="http://www.inkbrain.in">Inkbrain</a>
+            <a class="navbar-brand" a href="https://github.com/codegauravg/InkBrainWeb" target="_blank">  <i class="fa fa-github"></i> Fork </a>
         </div>
     <div class="collapse navbar-collapse" id="b-menu-1">
       <ul class="nav navbar-nav navbar-right">
@@ -59,13 +61,36 @@
         <span class="glyphicon glyphicon-search form-control-feedback"></span>
         </div>
         </form></a>-->
-        <li><a href="/webpages/altpage/codeguide.html">Code Guide</a></li>
-        <li><a href="/webpages/fixnavbar/linux_support.html">Ubuntu/Debian Support</a></li>
-        <li><a href="/webpages/fixnavbar/cheatsheets.html">Cheatsheets</a></li>
-        <li><a href="/webpages/altpage/followblog.html">Issues Blog</a></li>
-        <li><a href="/webpages/altpage/blogpage.html">Blog by Author</a></li>
-      </ul>
+        <li class="active"><a><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li><a href="webpages/secondnavbar/help.html"><span class="glyphicon glyphicon-question-sign"></span> Help</a></li>
+        <li><a href="webpages/secondnavbar/about.html"><span class="glyphicon glyphicon-exclamation-sign"></span> About</a></li>
+        <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-list"></span> Inside <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            <li><a href="/webpages/altpage/codeguide.html">Code Guide</a></li>
+            <li><a href="/webpages/fixnavbar/cheatsheets.html">Cheatsheets</a></li>
+            <li><a href="/blog">InkBrain Blog</a></li>
+            <li><a href="/debian">Ubuntu/Debian Support</a></li>
+            <li class="divider"></li>
+            <li><a href="webpages/secondnavbar/dropdown/responsive_layout.html">Responsive Layout Design</a></li>
+            <li><a href="webpages/secondnavbar/dropdown/forum.html">Recent Ideas</a></li>
+            <li class="divider"></li>
+            <li><a href="webpages/secondnavbar/dropdown/api_addthis.html">AddThis | Social API</a></li>
+            <li><a href="webpages/secondnavbar/dropdown/api_revolvermaps.html">Revolver Maps | Location API</a></li>
+
+        </ul></li>
+        <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-list"></span> Other <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Disclaimer Policy</a></li>
+            <li class="divider"></li>
+            <li><a href="https://github.com/codegauravg/InkBrainWeb/blob/master/LICENSE">Licensed under MIT &copy;InkBrain 2015</a></li>
+        </ul>
+      </li>
+    </ul>
     </div> <!-- /.nav-collapse -->
+
   </div> <!-- /.container -->
 </div> <!-- /.navbar --><!-- slider -->
 
@@ -130,6 +155,7 @@
 <!-- slit carousel ends -->
 
 <!-- modal box -->
+<!--
 <div class="modal fade" id="my-modal-box" tabindex="-1" role="dialog" aria-labelledby="my-modal-box-l" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -138,7 +164,7 @@
         <div class="modal-title" id="my-modal-box-l">
           <h3>Follow Us:</h3>
         </div>
-      </div><!-- /.modal-header -->
+      </div><!-- /.modal-header
       <div class="modal-body">
         <p><font size="3"><b>Facebook</b></font>&emsp;<img src=" img/social---facebook.png">&emsp;
           <font size="3"><b>Twitter</b></font>&emsp;<img src=" img/social---twitter.png">&emsp;
@@ -150,6 +176,7 @@
 </div><!-- /.modal -->
 
 <!-- second menu bar -->
+    <!--
 <nav class="navbar navbar-default navbar-static">
   <div class="navbar-header">
       <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#b-menu-2">
@@ -160,32 +187,15 @@
       </button>
       <a class="navbar-brand" a href="https://github.com/codegauravg/InkBrainWeb" target="_blank"><i class="fa fa-github"></i> Fork Inkbrain</a>
   </div>
+-->
 
   <!-- submenu elements for #b-menu-2 -->
-  <div class="collapse navbar-collapse" id="b-menu-2">
-    <ul class="nav navbar-nav">
-      <li class="active"><a><span class="glyphicon glyphicon-home"></span> Home</a></li>
-      <li><a href="webpages/secondnavbar/help.html"><span class="glyphicon glyphicon-question-sign"></span> Help</a></li>
-      <li><a href="webpages/secondnavbar/about.html"><span class="glyphicon glyphicon-exclamation-sign"></span> About</a></li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-list"></span> Other <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><a href="webpages/secondnavbar/dropdown/responsive_layout.html">Responsive Layout Design</a></li>
-          <li><a href="webpages/secondnavbar/dropdown/forum.html">Recent Ideas</a></li>
-          <li class="divider"></li>
-          <li><a href="webpages/secondnavbar/dropdown/api_addthis.html">AddThis | Social API</a></li>
-          <li><a href="webpages/secondnavbar/dropdown/api_revolvermaps.html">Revolver Maps | Location API</a></li>
-          <li class="divider"></li>
-          <li><a href="https://github.com/codegauravg/InkBrainWeb/blob/master/LICENSE">Licensed under MIT &copy;InkBrain 2015</a></li>
-        </ul>
-      </li>
-    </ul>
 
-    <ul class="nav navbar-nav navbar-right">
+   <!-- <ul class="nav navbar-nav navbar-right">
       <li data-toggle="modal" data-target="#my-modal-box"><a href="#"><span class="glyphicon glyphicon-share"></span>Share popup</a></li>
     </ul>
-  </div><!-- /.nav-collapse -->
-</nav>
+  </div>
+</nav> -->
 
 <!-- jumbotron -- 1st element -->
     <div class="jumbotron">
