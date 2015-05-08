@@ -1,6 +1,7 @@
 var footer = React.createClass({displayName: "footer",
                                 render: function(){
                                return(
+                                   React.createElement("br",null,null),
                                 React.createElement("footer",null,/* License plots */
                                   React.createElement("nav",{className: 'navbar navbar-default navbar-static-bottom', role: 'navigation'},
                                    React.createElement("p",{className: 'navbar-text'},
