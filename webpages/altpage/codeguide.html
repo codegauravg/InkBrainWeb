@@ -27,97 +27,43 @@
 
  <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-552a940d0bc7aff4" async="async"></script>
+<!-- add javascripts -->
 
-<!-- fixed navigation bar -->
-<div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+<script src="//inkbrain.in/js/react/build/react.js"></script>
 
-<div class="container">
-    <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#b-menu-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="http://www.inkbrain.in">InkBrain</a>
-    </div>
-<div class="collapse navbar-collapse" id="b-menu-1">
-  <ul class="nav navbar-nav navbar-right">
-    <!--<li><a> <form action="" class="search-form">
-    <div class="form-group has-feedback">
-    <label for="search" class="sr-only">Search</label>
-    <input type="text" class="form-control" name="search" id="search" placeholder="search">
-    <span class="glyphicon glyphicon-search form-control-feedback"></span>
-    </div>
-    </form></a>-->
-    <li class="active"><a href="//inkbrain.in/webpages/altpage/codeguide.html">Code Guide</a></li>
-        <li><a href="//inkbrain.in/webpages/fixnavbar/linux_support.html">Ubuntu/Debian Support</a></li>
-        <li><a href="//inkbrain.in/webpages/fixnavbar/cheatsheets.html">Cheatsheets</a></li>
-        <li><a href="//inkbrain.in/webpages/altpage/followblog.html">Issues Blog</a></li>
-        <li><a href="//inkbrain.in/webpages/altpage/blogpage.html">Blog by Author</a></li>
-  </ul>
-</div> <!-- /.nav-collapse -->
-</div> <!-- /.container -->
+<script src="//inkbrain.in/js/navreact.js"></script>
 
-</div> <!-- /.navbar --><!-- slider -->
+<script>
+/*-- fixed navigation bar -*/
+var navops = [
+{ link: '//inkbrain.in/index.html', label: ' Home', icon: 'glyphicon glyphicon-home' },
+{ link: '//inkbrain.in/webpages/secondnavbar/help.html', label: ' Help', icon: 'glyphicon glyphicon-question-sign' },
+{ link: '//inkbrain.inwebpages/secondnavbar/about.html', label: ' About', icon: 'glyphicon glyphicon-exclamation-sign' }
+  ];
+var navdrop1 = [
+{ state: 'active',link: '//inkbrain.in/webpages/altpage/codeguide.html', label: ' Code Guide', icon: '' },
+{ link: '//inkbrain.in/webpages/fixnavbar/cheatsheets.html', label: ' Cheat Sheets', icon: '' },
+{ link: '/blog', label: ' InkBrain Blog', icon: '' },
+{ state: 'divider' },
+{ link: '/debian', label: ' Ubuntu/Debian Support', icon: '' },
+{ link: '//inkbrain.inwebpages/secondnavbar/dropdown/responsive_layout.html', label: ' Responsive Layout Design', icon: '' },
+{ link: '//inkbrain.inwebpages/secondnavbar/dropdown/forum.html', label: ' Recent Ideas', icon: '' },
+{ state: 'divider' },
+{ link: '//inkbrain.inwebpages/secondnavbar/dropdown/api_addthis.html', label: ' AddThis | Social API', icon: '' },
+{ link: '//inkbrain.inwebpages/secondnavbar/dropdown/api_revolvermaps.html', label: ' Revolver Maps | Location API', icon: '' }
+  ];
 
-<!-- modal box -->
-<div class="modal fade" id="my-modal-box" tabindex="-1" role="dialog" aria-labelledby="my-modal-box-l" aria-hidden="true">
-  <div class="modal-dialog">
- <div class="modal-content">
-   <div class="modal-header">
-  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-  <div class="modal-title" id="my-modal-box-l">
- <h3>Follow Us:</h3>
-  </div>
-   </div><!-- /.modal-header -->
-   <div class="modal-body">
-  <p><font size="3"><b>Facebook</b></font>&emsp;<img src=" img/social---facebook.png">&emsp;
- <font size="3"><b>Twitter</b></font>&emsp;<img src=" img/social---twitter.png">&emsp;
- <font size="3"><b>Youtube</b></font>&emsp;<img src=" img/social---youtube.png"></p>
-  <!-- You may add AddThis code here -->
-   </div><!-- /.modal-body -->
- </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+var navdrop2 = [
+{ link: '', label: '      Contact Us', icon: '' },
+{ link: '', label: ' Disclaimer Policy', icon: '' },
+{state: 'divider'},
+{ link: 'https://github.com/codegauravg/InkBrainWeb/blob/master/LICENSE', label: ' Licensed under MIT © InkBrain 2015', icon: '' }
+  ];
 
-<!-- second menu bar -->
-<nav class="navbar navbar-default navbar-static">
-  <div class="navbar-header">
-   <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#b-menu-2">
- <span class="sr-only">Navigation</span>
- <span class="icon-bar"></span>
- <span class="icon-bar"></span>
- <span class="icon-bar"></span>
-   </button>
-   <a class="navbar-brand" a href="https://github.com/codegauravg/InkBrainWeb" target="_blank"><i class="fa fa-github"></i>Fork Inkbrain</a>
-  </div>
+var navbar = React.createElement(nav);
+React.render(navbar, document.getElementById('NavbarTop'));
+</script>
 
-  <!-- submenu elements for #b-menu-2 -->
-  <div class="collapse navbar-collapse" id="b-menu-2">
- <ul class="nav navbar-nav">
-   <li><a href="//inkbrain.in/index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-   <li><a href="//inkbrain.in/webpages/secondnavbar/help.html"><span class="glyphicon glyphicon-question-sign"></span> Help</a></li>
-   <li><a href="//inkbrain.in/webpages/secondnavbar/about.html"><span class="glyphicon glyphicon-exclamation-sign"></span> About</a></li>
-   <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-list"></span> Other <b class="caret"></b></a>
-  <ul class="dropdown-menu">
- <li><a href="//inkbrain.in/webpages/secondnavbar/dropdown/responsive_layout.html">Responsive Layout Design</a></li>
- <li><a href="//inkbrain.in/webpages/secondnavbar/dropdown/recents.html">Recent Ideas</a></li>
- <li class="divider"></li>
- <li><a href="//inkbrain.in/webpages/secondnavbar/dropdown/api_addthis.html">AddThis | Social API</a></li>
- <li><a href="//inkbrain.in/webpages/secondnavbar/dropdown/api_revolvermaps.html">Revolver Maps | Location API</a></li>
- <li class="divider"></li>
- <li><a href="https://github.com/codegauravg/Inkbrain-Website/blob/master/LICENSE">Licensed under MIT &copy;InkBrain 2014-2015</a></li>
-  </ul>
-   </li>
- </ul>
-
- <ul class="nav navbar-nav navbar-right">
-   <li data-toggle="modal" data-target="#my-modal-box"><a href="#"><span class="glyphicon glyphicon-share"></span>Share popup</a></li>
- </ul>
-  </div><!-- /.nav-collapse -->
-</nav>
 
 
 <!-- column double timeline sample -->
