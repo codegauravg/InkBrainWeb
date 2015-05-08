@@ -85,7 +85,7 @@ var nav = React.createClass({displayName: "nav",
         ),
        React.createElement("a",{className: "navbar-brand", href: "http://www.inkbrain.in"},"InkBrain"),
 			React.createElement("a",{className: 'navbar-brand', href: 'https://github.com/codegauravg/InkBrainWeb'},
-			React.createElement("i",{className: 'fa fa-github'})," Fork")
+			React.createElement("i",{className: 'fa fa-code-fork'})," Git Fork")
      ),
       React.createElement("div",{className: "collapse navbar-collapse", id: "b-menu-1"},
 
