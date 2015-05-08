@@ -5,7 +5,8 @@ var footer = React.createClass({displayName: "footer",
                                   React.createElement("nav",{className: 'navbar navbar-default navbar-static-bottom', role: 'navigation'},
                                    React.createElement("p",{className: 'navbar-text'},
                                                         React.createElement("a",{href: 'https://github.com/codegauravg/InkBrainWeb/blob/master/LICENSE'},
-                                                                            React.createElement("i",{className: 'fa fa-copyright'},null)," Licensed under MIT"),React.createElement("i",{className: 'fa fa-copyright'},null)," InkBrain 2014-2015"
+                                                                            React.createElement("i",{className: 'fa fa-copyright'},null)," Licensed under MIT"),React.createElement("i",{className: 'fa fa-copyright'},null)," InkBrain 2014-2015",
+                                                       React.createElement("br"),React.createElement("br"),"Lets code till the ",React.createElement("b",null,"SUNSHINE")," comes..."
                                                       ),
                                React.createElement("p",{className: 'navbar-text navbar-right'},
                                                    "Development & Maintained with ",

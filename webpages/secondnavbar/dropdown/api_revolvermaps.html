@@ -123,21 +123,13 @@ React.render(navbar, document.getElementById('NavbarTop'));
     </div>
 </div><!--/layout row end -->
 
-<footer>
-<nav class="navbar navbar-default navbar-static-bottom" role="navigation">
-      <p class="navbar-text">
-          &copy;<a href="https://github.com/codegauravg/Inkbrain-Website/blob/master/LICENSE"> GNU Open Source License 2014-2015</a>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Lets code till the <b> SUNSHINE </b> comes...!
-      </p>
+<div id="FooterTag"></div><!-- React rendering footer -->
+<script src="//inkbrain.in/js/footerreact.js"></script>
+<script>
+var foottag = React.createElement(footer);
+    React.render(foottag,document.getElementById('FooterTag'));
+</script>
 
-
-      <p class="navbar-text navbar-right">Development &amp; Maintained  on: <b> &copy; <a href="http://getbootstrap.com">Bootstrap</a> &copy; <a href="https://www.twitter.com">Twitter</a> API</b><br>
-         by: <a href="https://github.com/codegauravg"> codegauravg</a> &amp; <a href="https://github.com/anuragkumarak95">anuragkumarak95</a></p>
-  </nav>
-
-
-
-</footer>
 
         <!-- Google Adsense Code -->
     <script>
