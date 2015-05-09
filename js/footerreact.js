@@ -16,8 +16,8 @@ var footer = React.createClass({displayName: "footer",
                                                                                React.createElement("i",{className: 'fa fa-copyright'},null),React.createElement("a",{href: 'https://www.twitter.com', target: '_blank'},React.createElement('i',{className: 'fa fa-twitter'},null)," Twitter ")," API "),
                                                                               React.createElement("br",null,null),"& Rendered on: ",React.createElement("b",null,React.createElement("a",{href: 'https://facebook.github.io/react/', target: '_blank'},React.createElement("i",{className: 'fa fa-facebook'},null)," React")),
 
-                                                   React.createElement("br",null,null),"By: ",React.createElement("a",{href: 'https://github.com/codegauravg', target: '_blank'}," codegauravg"),
-                                                   " & ",React.createElement("a",{href: 'https://github.com/anuragkumarak95', target: '_blank'}," anuragkumarak95")
+                                                   React.createElement("br",null,null),"By: ",React.createElement("a",{href: 'https://github.com/codegauravg', target: '_blank'},React.createElement("i",{className: 'fa fa-github'},null),"/codegauravg"),
+                                                   " & ",React.createElement("a",{href: 'https://github.com/anuragkumarak95', target: '_blank'},React.createElement("i",{className: 'fa fa-github'},null),"/anuragkumarak95")
                                                   )
                                     )
                                 )
