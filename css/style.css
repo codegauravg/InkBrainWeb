@@ -4,6 +4,12 @@
         text-align: right;
     }
 }
+body {
+    margin-top:60px;
+    font-family: 'Montserrat',sans-serif;
+}
+/* this is just for the demo */
+
 
 /*
 below is the stylesheet for back to top button.
