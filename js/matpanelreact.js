@@ -8,7 +8,7 @@ var matpanel = React.createClass({displayName: "matpanel",
         ),
         React.createElement("div",{className: 'info'},
          React.createElement("h4",{className: 'text-center'},this.props.head),
-         React.createElement("p",null,React.createElement("i",{className: 'fa fa-2x fa-qoute-left'},null),this.props.children,React.createElement("i",{className: 'fa fa-qoute-right'},null)),
+         React.createElement("p",null,React.createElement("i",{className: 'fa fa-2x fa-quote-left'},null),this.props.children,React.createElement("i",{className: 'fa fa-quote-right'},null)),
         React.createElement("a",{href: this.props.btnlink, className: 'btn'},this.props.btnlabel)
         )
        )
