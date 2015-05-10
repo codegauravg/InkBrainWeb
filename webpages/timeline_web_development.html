@@ -60,56 +60,17 @@ var navbar = React.createElement(nav);
 React.render(navbar, document.getElementById('NavbarTop'));
 </script>
 
+<div id="TimeLine"></div>
+<script src="//inkbrain.in/history_timeline.js"></script>
+<script>
+var posts = [
+  {key: '1',icon: 'glyphicon glyphicon-record',timeago: '3 days',himg: 'http://lorempixel.com/1600/500/sports/2',flink: 'https://www.facebook.com',flabel: 'FB',content: 'hi everybody, this is the content.'},
+  {key: '2',side: 'timeline-inverted',icon: 'glyphicon glyphicon-record invert',timeago: '2 days',himg: 'http://lorempixel.com/1600/500/sports/2',flink: 'https://www.facebook.com',flabel: 'FB',content: 'hi everybody, this is the content.'}
+];
 
-<!-- column double timeline sample -->
-<div class="container">
-    <div class="page-header text-center">
-        <h2 id="timeline">Timeline of Web Development</h2>
-    </div>
-    <ul class="timeline">
-        <li>
-          <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" title="posted on: 2 April 2015" id=""></i></a></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h2 class="text-center">&emsp;&emsp;Material Box Panel</h2>
-
-            </div>
-<div class="timeline-body">
-
-</div>
-<div class="timeline-footer">
-                <i class="glyphicon glyphicon-thumbs-up"></i>&emsp;&emsp;&emsp;Snippet Referred through :
-                <!-- to be used later- <a><i class="glyphicon glyphicon-share"></i></a> -to be used later-->
-                <a class="pull-right" href="http://bootsnipp.com/snippets/featured/box-material-design">&#60; BootSnipp &gt;</a>
-</div>
-</div>
-</li>
-
-<li  class="timeline-inverted">
-          <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
-
-            </div>
-            <div class="timeline-body">
-              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra l� , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. M� faiz elementum girarzis, nisi eros vermeio, in elementis m� pra quem � amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-
-            </div>
-
-            <div class="timeline-footer">
-                <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
-                <a><i class="glyphicon glyphicon-share"></i></a>
-                <a class="pull-right">Continuar Lendo</a>
-            </div>
-          </div>
-        </li>
-
-        <li class="clearfix" style="float: none;"></li>
-    </ul>
-</div>
-<!-- column double timeline sample end -->
-
+var postgrp = React.createElement(postlist,{heading: 'History Continues',style: {float: 'none;'}, options: posts},null);
+React.render(postgrp,document.getElementById('TimeLine'));
+</script>
 <br>
 <div id="FooterTag"></div><!-- React rendering footer -->
 <script src="//inkbrain.in/js/footerreact.js"></script>
