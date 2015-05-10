@@ -10,7 +10,7 @@ var postslot = React.createClass({displayName: 'postslot',
         )
        ),
        React.createElement("div",{className: 'timeline-panel'},
-        React.createElement("div",{className: 'timeline-heading'},
+        React.createElement("div",{className: 'timeline-heading'},React.createElement("h2",{className: 'text-center'},this.props.headtext),
         /* post image here */
          React.createElement("img",{className: 'img-responsive', src: this.props.headimgsrc},null)
         ),
@@ -36,7 +36,7 @@ var postlist = React.createClass({displayName: 'postlist',/* group for timeline 
         this.props.options.map(function(option){
           return(
             React.createElement(postslot,
-              {slotside: option.side,icon: option.icon,timeago: option.timeago,headimgsrc: option.himg,footlink: option.flink,footlabel: option.flabel,key: option.key},
+              {slotside: option.side,icon: option.icon,timeago: option.timeago,headtext: option.htext,headimgsrc: option.himg,footlink: option.flink,footlabel: option.flabel,key: option.key},
                 option.content)
           );
         }),
