@@ -40,8 +40,8 @@ var collapsetab = React.createClass({displayName: 'collapsetab',
               )
              ),
              React.createElement("div",{className: 'panel-collapse collapse',id: 'collapse'+option.uid, role: 'tabpanel', 'aria-labelledby': 'heading'+option.uid},
-              React.createElement("div",{className: 'panel-body text-center'},
-              /* tab content comes here.*/ option.content,React.createElement(table,{options: option.tblops}))
+              React.createElement("div",{className: 'panel-body'},
+              /* tab content comes here.*/ React.createElement("h2",{className: 'text-center'},option.content),React.createElement(table,{options: option.tblops}))
              )
             )
           );})
