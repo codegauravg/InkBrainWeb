@@ -2394,7 +2394,7 @@ background-image: linear-gradient(to bottom, #6aaeda, #4298d0);
 <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="posted on: 11 May 2015" id=""></i></a></div>
 <div class="timeline-panel">
 <div class="timeline-heading">
-<h2>&emsp;&emsp;Social spin icons</h2>
+<h2 id="spinicon">&emsp;&emsp;Social spin icons</h2>
 
 </div>
 <div class="timeline-body">
@@ -2421,11 +2421,11 @@ background-image: linear-gradient(to bottom, #6aaeda, #4298d0);
 
     			<div class="col-md-12">
                     <ul class="social-network social-circle">
-                        <li><a href="#" class="icon icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-                        <li><a href="#" class="icon icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" class="icon icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" class="icon icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#" class="icon icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#spinicon" class="icon icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#spinicon" class="icon icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#spinicon" class="icon icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#spinicon" class="icon icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#spinicon" class="icon icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
                     </ul>
 				</div>
 
@@ -2557,6 +2557,170 @@ background-image: linear-gradient(to bottom, #6aaeda, #4298d0);
 </div>
 </div>
 </li><!-- /11th post -->
+
+<!-- 12th post -->
+<li>
+<div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" title="posted on: 12 May 2015" id=""></i></a></div>
+<div class="timeline-panel">
+<div class="timeline-heading">
+<h2>&emsp;&emsp;Modal Demo</h2>
+
+</div>
+<div class="timeline-body">
+<div class="panel panel-default">
+<div class="panel-heading">
+ <h3 class="panel-title"><br><br></h3>
+ <span class="pull-top">
+  <!-- Tabs -->
+  <ul class="nav panel-tabs">
+   <li class="active"><a href="#tab36" data-toggle="tab">Preview</a></li>
+   <li><a href="#tab37" data-toggle="tab">HTML</a></li>
+
+   <!--<li><a href="#tab38" data-toggle="tab">CSS</a></li>
+   <!-- no to be issued still
+   <li><a href="#tab4" data-toggle="tab">Blog Page</a></li>
+   -->
+ </ul>
+ </span>
+</div>
+<div class="panel-body">
+ <div class="tab-content">
+  <div class="tab-pane active" id="tab36"><!-- Preview section -->
+<!--  css link here -->
+<div class="container col-xs-12 col-md-12">
+  <h2>Bootstrap 3.1.0 - Modal Demo</h2>
+
+  <div class="row text-center">
+      <h3>The Basic Modal</h3>
+      <a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">Click to open Modal</a>
+  </div>
+  <hr>
+  <div class="row text-center">
+      <h3>The Small Modal</h3>
+      <a href="#" class="btn btn-lg btn-danger" data-toggle="modal" data-target="#smallModal">Click to open Modal</a>
+  </div>
+
+</div>
+
+<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Basic Modal</h4>
+      </div>
+      <div class="modal-body">
+        <h3>Modal Body</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="smallModal" tabindex="-1" role="dialog" aria-labelledby="smallModal" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Small Modal</h4>
+      </div>
+      <div class="modal-body">
+        <h3>Modal Body</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+
+<div class="tab-pane" id="tab37"><!-- Html section -->
+<pre class="col-md-12 col-sm-12"><code>
+  &#60;div class="container col-xs-12 col-md-12"&gt;
+ &#60;h2&gt;Bootstrap 3.1.0 - Modal Demo&#60;/h2&gt;
+
+ &#60;div class="row text-center"&gt;
+ &#60;h3&gt;The Basic Modal&#60;/h3&gt;
+ &#60;a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal"&gt;Click to open Modal&#60;/a&gt;
+ &#60;/div&gt;
+ &#60;hr&gt;
+ &#60;div class="row text-center"&gt;
+ &#60;h3&gt;The Small Modal&#60;/h3&gt;
+ &#60;a href="#" class="btn btn-lg btn-danger" data-toggle="modal" data-target="#smallModal"&gt;Click to open Modal&#60;/a&gt;
+ &#60;/div&gt;
+
+  &#60;/div&gt;
+
+  &#60;div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true"&gt;
+ &#60;div class="modal-dialog"&gt;
+ &#60;div class="modal-content"&gt;
+ &#60;div class="modal-header"&gt;
+ &#60;button type="button" class="close" data-dismiss="modal" aria-hidden="true"&gt;&times;&#60;/button&gt;
+ &#60;h4 class="modal-title" id="myModalLabel"&gt;Basic Modal&#60;/h4&gt;
+ &#60;/div&gt;
+ &#60;div class="modal-body"&gt;
+ &#60;h3&gt;Modal Body&#60;/h3&gt;
+ &#60;/div&gt;
+ &#60;div class="modal-footer"&gt;
+ &#60;button type="button" class="btn btn-default" data-dismiss="modal"&gt;Close&#60;/button&gt;
+ &#60;button type="button" class="btn btn-primary"&gt;Save changes&#60;/button&gt;
+ &#60;/div&gt;
+ &#60;/div&gt;
+ &#60;/div&gt;
+  &#60;/div&gt;
+
+  &#60;div class="modal fade" id="smallModal" tabindex="-1" role="dialog" aria-labelledby="smallModal" aria-hidden="true"&gt;
+ &#60;div class="modal-dialog modal-sm"&gt;
+ &#60;div class="modal-content"&gt;
+ &#60;div class="modal-header"&gt;
+ &#60;button type="button" class="close" data-dismiss="modal" aria-hidden="true"&gt;&times;&#60;/button&gt;
+ &#60;h4 class="modal-title" id="myModalLabel"&gt;Small Modal&#60;/h4&gt;
+ &#60;/div&gt;
+ &#60;div class="modal-body"&gt;
+ &#60;h3&gt;Modal Body&#60;/h3&gt;
+ &#60;/div&gt;
+ &#60;div class="modal-footer"&gt;
+ &#60;button type="button" class="btn btn-default" data-dismiss="modal"&gt;Close&#60;/button&gt;
+ &#60;button type="button" class="btn btn-primary"&gt;Save changes&#60;/button&gt;
+ &#60;/div&gt;
+ &#60;/div&gt;
+ &#60;/div&gt;
+  &#60;/div&gt;
+</code>
+</pre>
+</div>
+
+<!--<div class="tab-pane" id="tab38"><!-- Css section
+<pre class="col-md-12 col-sm-12"><code>
+
+</code></pre>
+
+  </div>
+
+  <!-- not to be issued still
+  <div class="tab-pane" id="tab4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+   Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,</div>
+ -->
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="timeline-footer">
+  <i class="fa fa-code"></i>&emsp;&emsp;&emsp;Snippet Referred through :
+  <!-- to be used later- <a><i class="glyphicon glyphicon-share"></i></a> -to be used later-->
+  <a class="pull-right" href="http://spyrestudios.com/36-free-bootstrap-code-snippets/" target="_blank"> spyrestudios </a>
+</div>
+</div>
+</li><!-- /12th post -->
 
         <!--<li  class="timeline-inverted">
           <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
