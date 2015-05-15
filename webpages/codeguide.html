@@ -2722,6 +2722,214 @@ background-image: linear-gradient(to bottom, #6aaeda, #4298d0);
 </div>
 </li><!-- /12th post -->
 
+<li class="timeline-inverted"><!-- 13th post -->
+  <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="posted on: 13 May 2015" id=""></i></a></div>
+  <div class="timeline-panel">
+    <div class="timeline-heading">
+      <h2>&emsp;&emsp;Metro Tile Panel</h2>
+
+    </div>
+    <div class="timeline-body">
+<div class="panel panel-default">
+      <div class="panel-heading">
+       <h3 class="panel-title"><br><br></h3>
+       <span class="pull-top">
+        <!-- Tabs -->
+        <ul class="nav panel-tabs">
+         <li class="active"><a href="#tab38" data-toggle="tab">Preview</a></li>
+         <li><a href="#tab39" data-toggle="tab">HTML</a></li>
+
+         <li><a href="#tab40" data-toggle="tab">CSS</a></li>
+         <!-- no to be issued still
+         <li><a href="#tab4" data-toggle="tab">Blog Page</a></li>
+         -->
+       </ul>
+       </span>
+      </div>
+      <div class="panel-body">
+       <div class="tab-content">
+        <div class="tab-pane active" id="tab38"><!-- Preview section -->
+          <link rel="stylesheet" href="//inkbrain.in/snippetres/css/tilepanel.css">
+          <div class="container col-xs-12 col-md-12">
+            <div class="row">
+              <div>
+                <h1><strong>Bootstrap - Microsoft Metro Tiles</strong></h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="tile purple">
+                  <h3 class="title">Purple Tile</h3>
+                  <p class="purple text-me">Hello Purple, this is a colored tile.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="tile red">
+                  <h3 class="title">Red Tile</h3>
+                  <p>Hello Red, this is a colored tile.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="tile orange">
+                  <h3 class="title">Orange Tile</h3>
+                  <p>Hello Orange, this is a colored tile.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="tile green">
+                  <h3 class="title">Green Tile</h3>
+                  <p>Hello Green, this is a colored tile.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="tile blue">
+                  <h3 class="title">Blue Tile</h3>
+                  <p>Hello Blue, this is a colored tile.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+<div class="tab-pane" id="tab39"><!-- Html section -->
+<pre class="col-md-12 col-sm-12"><code>
+  &#60;div class="container"&gt;
+ &#60;div class="row"&gt;
+ &#60;div class="col-md-12"&gt;
+ &#60;h1&gt;&#60;strong&gt;Bootstrap - Microsoft Metro Tiles&#60;/strong&gt;&#60;/h1&gt;
+ &#60;/div&gt;
+ &#60;/div&gt;
+ &#60;div class="row"&gt;
+ &#60;div class="col-sm-4"&gt;
+ &#60;div class="tile purple"&gt;
+ &#60;h3 class="title"&gt;Purple Tile&#60;/h3&gt;
+ &#60;p class="purple text-me"&gt;Hello Purple, this is a colored tile.&#60;/p&gt;
+ &#60;/div&gt;
+ &#60;/div&gt;
+ &#60;div class="col-sm-4"&gt;
+ &#60;div class="tile red"&gt;
+ &#60;h3 class="title"&gt;Red Tile&#60;/h3&gt;
+ &#60;p&gt;Hello Red, this is a colored tile.&#60;/p&gt;
+ &#60;/div&gt;
+ &#60;/div&gt;
+ &#60;div class="col-sm-4"&gt;
+ &#60;div class="tile orange"&gt;
+ &#60;h3 class="title"&gt;Orange Tile&#60;/h3&gt;
+ &#60;p&gt;Hello Orange, this is a colored tile.&#60;/p&gt;
+ &#60;/div&gt;
+ &#60;/div&gt;
+ &#60;/div&gt;
+ &#60;div class="row"&gt;
+ &#60;div class="col-sm-4"&gt;
+ &#60;div class="tile green"&gt;
+ &#60;h3 class="title"&gt;Green Tile&#60;/h3&gt;
+ &#60;p&gt;Hello Green, this is a colored tile.&#60;/p&gt;
+ &#60;/div&gt;
+ &#60;/div&gt;
+ &#60;div class="col-sm-4"&gt;
+ &#60;div class="tile blue"&gt;
+ &#60;h3 class="title"&gt;Blue Tile&#60;/h3&gt;
+ &#60;p&gt;Hello Blue, this is a colored tile.&#60;/p&gt;
+ &#60;/div&gt;
+ &#60;/div&gt;
+ &#60;/div&gt;
+  &#60;/div&gt;
+</code>
+</pre>
+</div>
+
+<div class="tab-pane" id="tab40"><!-- Css section -->
+<pre class="col-md-12 col-sm-12"><code>
+
+  .tile {
+  width: 100%;
+  	display: inline-block;
+  	box-sizing: border-box;
+  	background: #fff;
+  	padding: 20px;
+  	opacity: 0.4;
+  	margin-bottom: 30px;
+ transition: all 0.2s ease 0s;
+ overflow: hidden;
+  }
+  .tile:hover{opacity: 0.7;}
+
+  .purple, .blue, .red, .orange, .green {
+  color: #fff;
+  			 }
+
+  .purple {
+  background: purple;
+
+  }
+
+  	.purple:hover {
+  		box-shadow: 0 3px 6px 0 purple, 0 -3px 6px 0 purple;
+
+  	}
+
+  .red {
+  background: #AC193D;
+
+
+  }
+  	.red:hover {
+  		box-shadow: 0 3px 6px 0 #AC193D, 0 -3px 6px 0 #AC193D;
+
+  	}
+  .green {
+  background: #00A600;
+
+  }
+  	.green:hover {
+  		box-shadow: 0 3px 6px 0 #00A600, 0 -3px 6px 0 #00A600;
+
+  	}
+  .blue {
+  background: #2672EC;
+
+  }
+  	.blue:hover {
+  		box-shadow: 0 3px 6px 0 #2672EC, 0 -3px 6px 0 #2672EC;
+
+  	}
+
+  .orange {
+  background: #DC572E;
+
+  }
+  	.orange:hover {
+  		box-shadow: 0 3px 6px 0 #DC572E, 0 -3px 6px 0 #DC572E;
+
+  	}
+
+</code></pre>
+
+        </div>
+
+        <!-- not to be issued still
+        <div class="tab-pane" id="tab4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+         Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,</div>
+       -->
+
+     </div>
+     </div>
+   </div>
+    </div>
+
+    <div class="timeline-footer">
+        <i class="fa fa-code"></i>&emsp;&emsp;&emsp;Snippet Referred through :
+        <!-- to be used later- <a><i class="glyphicon glyphicon-share"></i></a> -to be used later-->
+        <a class="pull-right" href="//inkbrain.in/index.html" target="_blank">Inkbrain</a>
+    </div>
+  </div>
+</li><!-- /13th post -->
+
         <!--<li  class="timeline-inverted">
           <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
           <div class="timeline-panel">

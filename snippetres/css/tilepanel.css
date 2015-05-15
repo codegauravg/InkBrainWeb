@@ -1,0 +1,62 @@
+
+.tile {
+  width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	background: #fff;
+	padding: 20px;
+	opacity: 0.4;
+	margin-bottom: 30px;
+ transition: all 0.2s ease 0s;
+ overflow: hidden;
+}
+.tile:hover{opacity: 0.7;}
+
+  .purple, .blue, .red, .orange, .green {
+    color: #fff;
+			 }
+
+  .purple {
+    background: purple;
+
+  }
+
+	.purple:hover {
+		box-shadow: 0 3px 6px 0 purple, 0 -3px 6px 0 purple;
+
+	}
+
+  .red {
+    background: #AC193D;
+
+
+  }
+	.red:hover {
+		box-shadow: 0 3px 6px 0 #AC193D, 0 -3px 6px 0 #AC193D;
+
+	}
+  .green {
+    background: #00A600;
+
+  }
+	.green:hover {
+		box-shadow: 0 3px 6px 0 #00A600, 0 -3px 6px 0 #00A600;
+
+	}
+  .blue {
+    background: #2672EC;
+
+  }
+	.blue:hover {
+		box-shadow: 0 3px 6px 0 #2672EC, 0 -3px 6px 0 #2672EC;
+
+	}
+
+  .orange {
+    background: #DC572E;
+
+  }
+	.orange:hover {
+		box-shadow: 0 3px 6px 0 #DC572E, 0 -3px 6px 0 #DC572E;
+
+	}
